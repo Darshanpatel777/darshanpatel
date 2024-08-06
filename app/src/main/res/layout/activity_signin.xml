@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:background="#ffffff"
+    android:background="@drawable/bb"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".activity.SignIn">
@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome Back"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:textSize="50dp"
         android:textStyle="bold"
         android:gravity="center"/>
@@ -22,18 +22,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter your credential for login"
+        android:text="Enter your credential for Login"
         android:gravity="center"
         android:layout_margin="5dp"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:textSize="15sp"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="username"
-        app:boxStrokeColor="#09EF12"
-        android:textColorHint="@color/black"
+        android:hint="Username"
+        app:boxStrokeColor="#F00808"
+        android:textColorHint="@color/white"
         android:layout_marginTop="100dp"
         android:layout_marginRight="25sp"
         android:layout_marginLeft="25sp"
@@ -49,7 +49,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000" />
+            android:textColor="#ffffff" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -58,10 +58,11 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
-        app:boxStrokeColor="#09EF12"
-        android:textColorHint="@color/black"
+        android:hint="Password"
+        app:boxStrokeColor="#F00808"
+        android:textColorHint="@color/white"
         android:layout_marginRight="25sp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="25sp"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/padlock"
@@ -75,7 +76,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"/>
+            android:textColor="#ffffff"/>
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -83,7 +84,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-       android:backgroundTint="#DE4616"
+       android:backgroundTint="#000000"
         android:text="Login Now"
         android:textColor="#ffffff"
         android:textSize="30sp"
@@ -93,31 +94,22 @@
 
     <TextView
         android:id="@+id/signup"
-        android:layout_margin="10dp"
+        android:layout_margin="8sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#3855F8"
-        android:text="Create Account.."
-        android:textSize="20sp"/>
+        android:textColor="#ffffff"
+        android:text="Create Account ?"
+        android:textSize="18sp"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="forgot password?"
+        android:text="Forgot password?"
         android:gravity="center"
-        android:layout_margin="20dp"
-        android:textColor="#F0420A"
+        android:layout_margin="60sp"
+        android:textColor="#ffffff"
         android:textSize="15sp"/>
-
-
-
-
-
-
-
-
-
 
 
 
