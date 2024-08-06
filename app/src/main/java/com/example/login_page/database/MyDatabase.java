@@ -14,17 +14,17 @@ public class MyDatabase extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-//        String table = "CREATE TABLE user (username text unique, email text, password text)";
-        String table = "CREATE TABLE user (username text , email text, password text)";
+        String table = "CREATE TABLE user (username text unique, email text, password text)";
+//        String table = "CREATE TABLE user (username text , email text, password text)";
         db.execSQL(table);
 
 
     }
 
-    public void insertdata(String usename, String email , String pass)
+    public void insertdata(String username, String email , String pass)
     {
         try {
-            String insert = "INSERT INTO user (username , email , password) VALUES ('" + usename + "','" + email + "','" + pass + "')";
+            String insert = "INSERT INTO user (username , email , password) VALUES ('" + username + "','" + email + "','" + pass + "')";
             getWritableDatabase().execSQL(insert);
         }
         catch (Exception e)

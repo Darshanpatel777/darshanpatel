@@ -12,8 +12,10 @@ import com.example.login_page.R;
 import com.example.login_page.database.MyDatabase;
 
 public class Signup extends AppCompatActivity {
+
     TextView login;
-Button createuser ;
+    Button createuser ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +31,7 @@ Button createuser ;
             @Override
             public void onClick(View v) {
 
-                db.insertdata("nency1","nency@gmail.com","nency@123");
+                db.insertdata("darshan","darshan777@gmail.com","darshan@123");
 
             }
         });
