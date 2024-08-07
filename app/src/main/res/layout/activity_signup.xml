@@ -162,7 +162,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30sp"
-        android:text="Already Have an Account ?"
+        android:text="already Have an Account ?"
         android:textColor="#ffffff"
         android:textSize="15sp" />
 
