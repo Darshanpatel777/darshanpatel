@@ -62,7 +62,7 @@
         app:boxStrokeColor="#F00808"
         android:textColorHint="@color/white"
         android:layout_marginRight="25sp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="25sp"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/padlock"
@@ -88,27 +88,27 @@
         android:text="Login Now"
         android:textColor="#ffffff"
         android:textSize="30sp"
-        android:layout_marginTop="10sp"
+        android:layout_marginTop="15sp"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"/>
 
     <TextView
         android:id="@+id/signup"
-        android:layout_margin="8sp"
+        android:layout_margin="10sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#ffffff"
+        android:textColor="#E91E63"
         android:text="Create Account ?"
-        android:textSize="18sp"/>
+        android:textSize="20sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot password?"
+        android:text="Forgot password ?"
         android:gravity="center"
-        android:layout_margin="60sp"
-        android:textColor="#ffffff"
-        android:textSize="15sp"/>
+        android:layout_margin="90sp"
+        android:textColor="#E91E63"
+        android:textSize="20sp"/>
 
 
 

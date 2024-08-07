@@ -16,6 +16,7 @@ public class MyDatabase extends SQLiteOpenHelper {
 
         String table = "CREATE TABLE user (username text unique, email text, password text)";
 //        String table = "CREATE TABLE user (username text , email text, password text)";
+//                        CREATE TABLE table_name (column_name datatype constraints , , ,)
         db.execSQL(table);
 
 
@@ -25,7 +26,11 @@ public class MyDatabase extends SQLiteOpenHelper {
     {
         try {
             String insert = "INSERT INTO user (username , email , password) VALUES ('" + username + "','" + email + "','" + pass + "')";
+//            String insert = "INSERT INTO user (username , email , password) VALUES ('" + "darshan" + "','" + "darshan@gmail.com" + "','" + "darshan@123" +"')";
             getWritableDatabase().execSQL(insert);
+
+            // INSERT INTO table_name (column_name, , ,) VALUES (value, , , )
+            // string value ''
         }
         catch (Exception e)
         {
