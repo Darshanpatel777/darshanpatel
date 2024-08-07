@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome_Back"
+        android:text="Welcome Back"
         android:textColor="#ffffff"
         android:textSize="50dp"
         android:textStyle="bold"
