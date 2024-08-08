@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:gravity="center"
         app:boxStrokeColor="#F00808"
         android:textColorHint="@color/white"
         android:layout_marginTop="100dp"
@@ -48,6 +49,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/username"
             android:layout_height="wrap_content"
             android:textColor="#ffffff" />
 
@@ -59,6 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
+        android:gravity="center"
         app:boxStrokeColor="#F00808"
         android:textColorHint="@color/white"
         android:layout_marginRight="25sp"
@@ -75,6 +78,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/password"
             android:layout_height="wrap_content"
             android:textColor="#ffffff"/>
 
@@ -82,10 +86,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
+        android:id="@+id/loginuser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
        android:backgroundTint="#000000"
         android:text="Login Now"
+        android:gravity="center"
         android:textColor="#ffffff"
         android:textSize="30sp"
         android:layout_marginTop="15sp"
@@ -94,7 +100,7 @@
 
     <TextView
         android:id="@+id/signup"
-        android:layout_margin="10sp"
+        android:layout_margin="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#E91E63"
@@ -106,8 +112,8 @@
         android:layout_height="wrap_content"
         android:text="Forgot password ?"
         android:gravity="center"
-        android:layout_margin="90sp"
-        android:textColor="#E91E63"
+        android:layout_margin="70sp"
+        android:textColor="#ffffff"
         android:textSize="20sp"/>
 
 
